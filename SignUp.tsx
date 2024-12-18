@@ -1,5 +1,6 @@
 import react from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 
 export default function SignUpPage() {
@@ -79,11 +80,11 @@ export default function SignUpPage() {
             <div className="text-center mt-8">
               <p>or</p>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-                <img src="/images/google-icon.png" alt="Google" className="h-6 mr-2" />
+                <Image src="/images/google-icon.png" alt="Google" className="h-6 mr-2" />
                 Sign up with Google
               </button>
               <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex items-center justify-center">
-                <img src="/images/apple-icon.png" alt="Apple" className="h-6 mr-2" />
+                <Image src="/images/apple-icon.png" alt="Apple" className="h-6 mr-2" />
                 Sign up with Apple
               </button>
             </div>
