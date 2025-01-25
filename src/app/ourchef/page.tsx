@@ -34,7 +34,7 @@ const OurChef =()=>{
                 
 
 {/* Grid of staff */}
-                <section className="w-screen h-[5556px] lg:w-[1320px] lg:h-[1389px] my-[180px] ml-[50px] lg:ml-[200px] ">
+                <section className="w-screen h-[5556px] lg:w-[1320px] lg:h-[1389px] my-[180px] ml-[50px] lg:ml-0 ">
                     <div className=" items-center justify-center">
                 <div className="   grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {items.map((item) => (
