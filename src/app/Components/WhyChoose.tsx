@@ -11,7 +11,7 @@ const WhyChoose =()=>{
         {/*Left side */}        
                 <section className="w-screen lg:w-[660px] mx-2 lg:mx-0 h-[716px] grid grid-cols-1 lg:grid-rows-2 ">
                     <div >
-                        <div className="col-span-1 lg:row-span-1 flex gap-4">                       
+                        <div className="col-span-1 lg:row-span-1 flex gap-2 lg:gap-4">                       
                             <Image src={"/whychoose/1.png"}
                             alt="1"
                             width={362}
@@ -21,7 +21,7 @@ const WhyChoose =()=>{
                             width={281}
                             height={231}/>                        
                         </div>
-                        <div className="col-span-1 lg:row-span-2 flex gap-4 mt-4">                       
+                        <div className="col-span-1 lg:row-span-2 flex gap-2 lg:gap-4 mt-4">                       
                             <Image className="mb-[53px]" src={"/whychoose/3.png"}
                             alt="3"
                             width={244}
@@ -30,7 +30,7 @@ const WhyChoose =()=>{
                             alt="4"
                             width={221}
                             height={226}/>
-                            <div >
+                            <div className="col-span-1">
                                 <Image src={"/whychoose/5.png"}
                                 alt="5"
                                 width={161}
