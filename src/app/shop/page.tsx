@@ -156,7 +156,7 @@ const Shop =()=>{
 
         <div className="flex flex-col lg:flex-row w-screen lg:w-[1400px] h-[3420px] lg:h-[1933px] py-16 ">
 {/*Right Container */}
-            <section className="container flex flex-col  w-screen lg:w-[984px] h-[3420px] lg:h-[1923px] px-2 ml-52 ">
+            <section className="container flex flex-col  w-screen lg:w-[984px] h-[3420px] lg:h-[1923px] px-2 ml-0 ">
             {/*Short and Show */}
                 <div className="flex flex-col lg:flex-row pb-2 lg:bp-0">
                     <div className="flex items-start">
