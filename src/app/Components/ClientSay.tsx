@@ -48,7 +48,7 @@ const ClientSay =()=>{
         </div>
         </div>
         <div>
-        <Image className="mt-20 ml-[630px]"
+        <Image className="mt-20 ml-[160px] lg:ml-[630px]"
             src={"/teammember/Dot.png"}
             alt="stars"
             width={86}
