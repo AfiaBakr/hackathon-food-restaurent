@@ -1,16 +1,16 @@
 import react from "react";
 import Image from "next/image";
-import StarterMenu from "../Components/OurMenu/StarterMenu";
-import OverView from "../Components/OurMenu/OverView";
-import DessertDrink from "../Components/OurMenu/DessetDrink"; 
-import PartnerClient from "../Components/OurMenu/PartnerClient";
+import StarterMene from "../Components/StarterMenu";
+import OverView from "../Components/OverView";
+import DessertDrink from "../Components/DessetDrink"; 
+import PartnerClient from "../Components/PartnerClient";
 
 
 const OurMenu = ()=> {
     return(
         <main id="Menu">
             <title>Our Menu</title>
-            <StarterMenu/>            
+            <StarterMene/>           
             <OverView/>
             <DessertDrink/>
             <PartnerClient/>
