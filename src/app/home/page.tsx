@@ -1,11 +1,17 @@
 "use client"
 
 import React from 'react'
+import Link from 'next/link'
 import Image from 'next/image'
 import { FaCheck } from 'react-icons/fa6'
 import FoodCategory from '../foodcategory/page'
 import MeetChef from '../Components/MeetChef'
-import ClientSay from '../Components/ClientSay'
+import OurClientSay from '../Components/OutClientSay'
+import OverView from "../Components/OverView";
+import WhyChoose from '../Components/WhyChoose'
+import Mid from '../Components/Mid'
+import BlogPost from '../Components/BlogPost'
+import ChoosePick from '../Components/ChoosePick'
 
 const Home=()=> {
   return (
@@ -97,7 +103,7 @@ const Home=()=> {
 
         <div className="flex flex-col md:flex-row items-center md:items-start">
           <button className="bg-[#FF9F0D] text-white w-[100px] h-[30px] md:w-[190px] md:h-[60px] rounded-[40px] mt-[32px] hover:bg-yellow-800">
-            See More
+            <Link href={"/errorpage"}>See More</Link>
           </button>
         </div>
       </div>
@@ -112,11 +118,26 @@ const Home=()=> {
     <div className='pb-10 bg-black'>
     <FoodCategory/>
     </div>
-    <div className='pb-10 '>
-    <MeetChef/>
+    <div className='pb-10 bg-black'>
+    <WhyChoose/>
     </div>
-    <div className='py-40 '>
-    <ClientSay/>
+    <div className='pb-10 bg-black'>
+      <OverView />
+    </div>
+    <div className='pb-10 bg-black'>
+    <ChoosePick/>
+    </div>
+    <div>
+    <MeetChef/>
+    </div>    
+    <div className='pb-10 bg-black'>
+    <OurClientSay/>
+    </div>
+    <div className='pb-10 bg-black'>
+    <Mid/>
+    </div>
+    <div className='pb-10 bg-black'>
+    <BlogPost/>
     </div>
     </>
   )

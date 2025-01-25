@@ -1,10 +1,13 @@
 import Image from "next/image";
-import Home from "./home/page";
+import Link from "next/link";
 
-export default function HomePage() {
+
+export default function Home() {
   return (
     <div>
-      <Home/>
+    <Link href={"/shopdetail"}>ShopDetail</Link>  
+     
+    
     </div>
-  )
-};
+  );
+}
