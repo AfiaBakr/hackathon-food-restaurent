@@ -91,7 +91,7 @@ const ChoosePick =()=>{
                     alt="1"
                     width={515}
                     height={406}/>
-                    <Image className="absolute top-[3630px] left-[70px] lg:left-[50px]" src={"/choosepick/2.png"}
+                    <Image className="absolute top-[6100px] lg:top-[3630px] left-10  lg:left-[50px]" src={"/choosepick/2.png"}
                     alt="2"
                     width={340}
                     height={340}/>
