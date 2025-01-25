@@ -19,7 +19,7 @@ const OverView =()=>{
                 {/*Chefs */}
                 <div className="items-center justify-center">
                     <div className=" ml-12">
-                        <Image src={"/our menu/logo4.png "}
+                        <Image src={"/public/our menu/logo4.png "}
                         alt="logo4"
                         width={120}
                         height={119}/>
@@ -32,8 +32,8 @@ const OverView =()=>{
                 </div>
                 {/*Foods */}
                 <div className="items-center justify-center">
-                    <div className=" ml-6">
-                        <Image src={"/our menu/logo1.png "}
+                    <div className=" ml-0">
+                        <Image src={"/public/our menu/logo1.png "}
                         alt="logo1"
                         width={120}
                         height={119}/>
@@ -46,7 +46,7 @@ const OverView =()=>{
                 {/*Experiences */}
                 <div className="items-center justify-center">
                     <div className=" ml-14">
-                        <Image src={"/our menu/logo2.png "}
+                        <Image src={"/public/our menu/logo2.png "}
                         alt="logo2"
                         width={120}
                         height={119}/>
@@ -59,7 +59,7 @@ const OverView =()=>{
                 {/*Customers */}
                 <div className="items-center justify-center">
                     <div className=" ml-14">
-                        <Image src={"/our menu/logo3.png "}
+                        <Image src={"/public/our menu/logo3.png "}
                         alt="logo3"
                         width={120}
                         height={119}/>
