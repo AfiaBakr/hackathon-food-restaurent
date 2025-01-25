@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const OurClientSay =()=>{
     return(
-        <div className="bg-black lg:ml-48">
+        <div className="bg-black lg:ml-2">
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" >
             <h1 className="text-sm mb-4 font-medium text-[#ff9f0d] italic">
             Testimonials
