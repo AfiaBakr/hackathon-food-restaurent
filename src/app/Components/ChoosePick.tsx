@@ -91,12 +91,12 @@ const ChoosePick =()=>{
                     alt="1"
                     width={515}
                     height={406}/>
-                    <Image className="absolute top-[250px] left-[70px] lg:left-[300px]" src={"/choosepick/2.png"}
+                    <Image className="absolute top-[3630px] left-[70px] lg:left-[50px]" src={"/choosepick/2.png"}
                     alt="2"
-                    width={366}
-                    height={362}/>
+                    width={340}
+                    height={340}/>
                 </section>
-                <section className="w-[400px] lg:w-[300px] h-[426px] flex flex-row ml-4 lg:ml-14">
+                <section className="w-[400px] lg:w-[300px] h-[426px] flex flex-row ml-4 lg:ml-10">
                     <div className="w-auto lg:w-[300px] h-[79px] flex flex-col gap-[22px] ">
                                         {ChooseList1.map((list1)=>(
                                             <div key={list1.id} className="w-auto lg:w-[90px] h-[90px] ">
@@ -118,7 +118,7 @@ const ChoosePick =()=>{
                                 
                 </section>
 
-                <section className="w-[400px] lg:w-[300px] h-[426px] flex flex-row ml-4 lg:ml-28">
+                <section className="w-[400px] lg:w-[300px] h-[426px] flex flex-row ml-4 lg:ml-20">
                     <div className="w-auto lg:w-[300px] h-[79px] flex flex-col gap-[22px] ">
                                         {ChooseList2.map((list2)=>(
                                             <div key={list2.id} className="w-auto lg:w-[90px] h-[90px] ">

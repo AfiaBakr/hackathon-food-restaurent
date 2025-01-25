@@ -5,10 +5,10 @@ import Link from "next/link";
 const Mid=()=> {
   return (
     <div>
-    <section className="w-screen lg:w-[1918px] h-[558px] " style={{background:"url('/mid/mid-bg.png')", 
+    <section className="w-full lg:w-[1260px] h-[558px] " style={{background:"url('/mid/mid-bg.png')", 
         backgroundSize: "cover",
         backgroundPosition:"center"}}>
-        <div className="text-right text-sm lg:text-base text-white pt-28 lg:pt-[130px] pr-[10px] lg:pr-[300px]">
+        <div className="text-right text-sm lg:text-base text-white pt-28 lg:pt-[130px] pr-[10px] lg:pr-[100px]">
             <div className="font-greatvibes italic">
             <h3 className="text-[22px] lg:text-[32px] text-[#ff9f0d]">Restaurant Active Process</h3>
             </div>

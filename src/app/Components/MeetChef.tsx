@@ -28,7 +28,7 @@ const MeetChef =()=>{
 
 {/* Grid of staff */}
 
-                <div className="bg-black lg:absolute mt-4 lg:mt-[50px] items-center justify-center ml-16 lg:ml-72 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="bg-black lg:absolute mt-4 lg:mt-[50px] items-center justify-center ml-16 lg:ml-0 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {items.map((item) => (
                     <div key={item.id} className="relative">
 {/* Image  */}

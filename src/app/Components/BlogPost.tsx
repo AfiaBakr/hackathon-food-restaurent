@@ -37,16 +37,16 @@ const BlogPost =()=>{
                 <h3 className=" text-[#ff9f0d]"> La</h3><h3>test News & Blog</h3>
                 </div>
             </header>
-            <div className=" mx-2 lg:ml-52 mt-[44px]">
-                <div className="w-auto lg:w-[423px] h-[569px] flex flex-col lg:flex-row gap-[280px] lg:gap-16 ">
+            <div className=" mx-2 lg:ml-1 mt-[44px]">
+                <div className="w-auto lg:w-[400px] h-[569px] flex flex-col lg:flex-row gap-[280px] lg:gap-4 lg:ml-4 ">
                     {BlogPostlist.map((list)=>(
-                        <div key={list.id} className="w-auto lg:w-[423px] h-[349px] ">
+                        <div key={list.id} className="w-auto lg:w-[400px] h-[349px] ">
                             <Image src={list.image}
                             alt="1"
-                            width={423}
+                            width={400}
                             height={349}
                             />
-                            <div className="w-auto lg:w-[423px] h-[220px]border border-white border-t-0 border-b-2 border-x-2 p-6 text-white">
+                            <div className="w-auto lg:w-[400px] h-[220px]border border-white border-t-0 border-b-2 border-x-2 p-6 text-white">
                                 <h3 className="text-[16px] text-[#ff9f0d]">{list.date}</h3>
                                 <h3 className="text-[24px] pt-4" >{list.descript}</h3>
                                 <div className="flex justify-between pt-6 ">

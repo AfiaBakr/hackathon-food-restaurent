@@ -7,18 +7,18 @@ const OverView =()=>{
         <main>
             {/*Over View */}                          
             
-            <div className="flex flex-col items-center justify-center gap-20 lg:gap-32 lg:flex-row w-screen h-[1250px] lg:w-screen lg:h-[468px] relative"
+            <div className="flex flex-col items-center justify-center gap-[60px] lg:gap-[110px] lg:flex-row w-full h-[1250px] lg:w-full lg:h-[468px] relative"
             style={{
                 backgroundImage:
                     "linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/our menu/unsplash-bg.png')",
-                backgroundSize: "cover",
+                
                 backgroundPosition: "center",
             }}>
 
 
                 {/*Chefs */}
                 <div className="items-center justify-center">
-                    <div className=" ml-14">
+                    <div className=" ml-12">
                         <Image src={"/our menu/logo4.png "}
                         alt="logo4"
                         width={120}
