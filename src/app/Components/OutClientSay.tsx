@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const OurClientSay =()=>{
     return(
-        <div className="bg-black lg:ml-2">
+        <div className="bg-black lg:ml-0">
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" >
             <h1 className="text-sm mb-4 font-medium text-[#ff9f0d] italic">
             Testimonials
@@ -28,7 +28,7 @@ const OurClientSay =()=>{
                     backgroundSize: "400px 500px" }} >
             
             <p className="text-[#ff9f0d] text-lg text-center pt-20">99</p>
-            <div className=" text-center justify-center mx-2 lg:mx-32 mt-8">           
+            <div className=" text-center justify-center mx-0 lg:mx-32 mt-8">           
             <p className=" text-[#333333] ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               diam pellentesque bibendum non dui volutpat fringilla bibendum.
