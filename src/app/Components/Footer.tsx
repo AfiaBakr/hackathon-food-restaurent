@@ -1,12 +1,8 @@
+"üse client"
+
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-
-import Post1 from "../../../public/footer/Post1.png";
-import Post2 from "../../../public/footer/Post2.png"
-import Post3 from "../../../public/footer/Post3.png"
-
-
 
 
 import { PiClockClockwiseBold } from "react-icons/pi";
@@ -80,36 +76,36 @@ const Footer = () => {
             </h2>
             <ul className="text-[#FFFFFF] font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href={"/about"} className="hover:underline">
                   About
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                   News
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href={"/OurMenu/PartnerClient"} className="hover:underline">
                   Partner
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href={"/TeamMember"} className="hover:underline">
                   Team 
-                </a>
+                </Link>
               </li>
 
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href={"/menu"} className="hover:underline">
                 Menu
-                </a>
+                </Link>
               </li> 
 
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                 Contact
-                </a>
+                </Link>
               </li> 
             </ul>
           </div>
@@ -119,36 +115,36 @@ const Footer = () => {
             </h2>
             <ul className="text-[#FFFFFF] font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href={"/faq"} className="hover:underline">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                 Term & conditions
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                 Reporting
-                </a>
+                </Link>
               </li>
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                 Documentation 
-                </a>
+                </Link>
               </li>
 
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                 Support Policy
-                </a>
+                </Link>
               </li> 
 
               <li className="mb-4">
-                <a href="#" className="hover:underline">
+                <Link href="#" className="hover:underline">
                 Privacy
-                </a>
+                </Link>
               </li> 
             </ul>
           </div>
@@ -159,29 +155,16 @@ const Footer = () => {
             <ul className="text-gray-500 dark:text-gray-400 font-medium space-y-[14px]">
   {/* Post 1 */}
   <li className="flex gap-[16.5px]">
-    <Image src={Post1} alt="Fod" />
+    <Image src={"/footer/Post1.png"}
+    alt="Food" 
+    width={60}
+    height={50} />
     <div className="ml-1">
       <h2 
-        className="
-          text-[16px] 
-          text-[#FFFFFF] 
-          font-inter 
-          font-normal 
-          leading-[24px] 
-          opacity-[.49] 
-          w-[96px] 
-          h-[24px] 
-          ml-[75px]
-        "
-      >
+        className="text-[14] lg:text-[16px] text-[#FFFFFF] font-inter font-normal leading-[24px] opacity-[.49] w-[96px] h-[24px] ml-[75px]">
         20 Feb 2022
       </h2>
-      <h3 className="    font-inter 
-    text-[18px] 
-    font-normal 
-    leading-[26px] 
-    text-left 
-    decoration-skip-ink-none text-[#FFFFFF]">
+      <h3 className="font-inter text-[16] lg:text-[18px] font-normal leading-[26px] text-left decoration-skip-ink-none text-[#FFFFFF]">
         Keep Your Business
       </h3>
     </div>
@@ -189,29 +172,14 @@ const Footer = () => {
 
   {/* Post 2 */}
   <li className="flex gap-[16.5px]">
-    <Image src={Post2} alt="Fod" />
+    <Image src={"/footer/Post2.png"} alt="Food" width={60}
+    height={50} />
     <div className="ml-1">
       <h2 
-        className="
-          text-[16px] 
-          text-[#FFFFFF] 
-          font-inter 
-          font-normal 
-          leading-[24px] 
-          opacity-[.49] 
-          w-[96px] 
-          h-[24px] 
-          ml-[75px]
-        "
-      >
+        className="text-[14] lg:text-[16px] text-[#FFFFFF] font-inter font-normal leading-[24px] opacity-[.49] w-[96px] h-[24px] ml-[75px]">
         20 Feb 2022
       </h2>
-      <h3 className="    font-inter 
-    text-[18px] 
-    font-normal 
-    leading-[26px] 
-    text-left 
-    decoration-skip-ink-none text-[#FFFFFF]">
+      <h3 className="font-inter text-[16] lg:text-[18px] font-normal leading-[26px] text-left decoration-skip-ink-none text-[#FFFFFF]">
         Keep Your Business
       </h3>
     </div>
@@ -219,29 +187,14 @@ const Footer = () => {
 
   {/* Post 3 */}
   <li className="flex gap-[16.5px]">
-    <Image src={Post3} alt="Fod" />
+    <Image src={"/footer/Post3.png"} alt="Food" width={60}
+    height={50} />
     <div className="ml-1">
       <h2 
-        className="
-          text-[16px] 
-          text-[#FFFFFF] 
-          font-inter 
-          font-normal 
-          leading-[24px] 
-          opacity-[.49] 
-          w-[96px] 
-          h-[24px] 
-          ml-[75px]
-        "
-      >
+        className="text-[14] lg:text-[16px] text-[#FFFFFF] font-inter font-normal leading-[24px] opacity-[.49] w-[96px] h-[24px] ml-24 lg:ml-[75px]">
         20 Feb 2022
       </h2>
-      <h3 className="t    font-inter 
-    text-[18px] 
-    font-normal 
-    leading-[26px] 
-    text-left 
-    decoration-skip-ink-none text-[#FFFFFF]">
+      <h3 className="font-inter text-[16] lg:text-[18px] font-normal leading-[26px] text-left decoration-skip-ink-none text-[#FFFFFF]">
         Keep Your Business
       </h3>
     </div>

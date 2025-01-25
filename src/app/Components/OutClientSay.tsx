@@ -3,14 +3,14 @@
 import Image from "next/image";
 
 
-const ClientSay =()=>{
+const OurClientSay =()=>{
     return(
-        <div >
+        <div className="bg-black lg:ml-48">
             <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left" >
             <h1 className="text-sm mb-4 font-medium text-[#ff9f0d] italic">
             Testimonials
             </h1>
-            <p className="text-black title-font text-4xl mb-8 font-bold">
+            <p className="text-white title-font text-3xl lg:text-4xl mb-8 font-bold">
             What our client are saying
             </p>
             </div>
@@ -21,7 +21,7 @@ const ClientSay =()=>{
                  width={133} height={133}
                 /> 
                 </div>
-            <div className=" w-screen lg:w-[868px] h-[450px] my-20 items-center justify-center ml-0 lg:ml-60 shadow-outter shadow-lg shadow-gray-500" 
+            <div className="bg-white w-screen lg:w-[868px] h-[450px] mt-16 items-center justify-center ml-0 lg:ml-60 " 
                 style={{ backgroundImage: "url('/teammember/flower.png')",
                     backgroundPosition: "right  bottom",  
                     backgroundRepeat: "no-repeat", 
@@ -37,20 +37,20 @@ const ClientSay =()=>{
               velit in consequat.
             </p>
             </div>
-            <div className="text-center justify-center  mt-10">
-            <Image className="ml-36 lg:ml-[375px]"
+            <div className="text-center justify-center pt-8 lg:pt-16">
+            <Image className="ml-36 lg:ml-[375px] "
             src={"/teammember/star.png"}
             alt="stars"
             width={150}
             height={24}/>
-            <h3 className=" font-semibold text-4xl mt-6 lg:mt-10">Alamin Hasan</h3>
-            <h3 className="text-slate-500 text-2xl">Food Specialist</h3>
+            <h3 className=" font-semibold text-2xl lg:text-4xl mt-6 lg:mt-6">Alamin Hasan</h3>
+            <h3 className="text-[#333333] text-xl lg:text-2xl">Food Specialist</h3>
         </div>
         </div>
         <div>
-        <Image className="mt-20 ml-[630px]"
+        <Image className=" py-16 lg:py-20 ml-40 lg:ml-[630px]"
             src={"/teammember/Dot.png"}
-            alt="stars"
+            alt="dots"
             width={86}
             height={16}/>
         </div>
@@ -61,4 +61,4 @@ const ClientSay =()=>{
     )
 };
 
-export default ClientSay;
+export default OurClientSay;

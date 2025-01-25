@@ -8,8 +8,8 @@ const Abouted = ()=>{
         <div>
                    {/* Background Section */}
       <header className="bg-cover bg-center h-52 flex flex-col text-center" style={{ backgroundImage: "url('/menu pic/headerpc.png')" }}>
-                <h1 className="text-5xl font-bold text-white tracking-wide mt-16">About Us</h1>
-                <div className="flex items-center justify-center text-[28px]">
+                <h1 className="text-3xl lg:text-5xl font-bold text-white tracking-wide mt-16">About Us</h1>
+                <div className="flex items-center justify-center text-sm lg:text-2xl">
                 <h1 className="text-white">Home</h1><MdKeyboardArrowRight className="text-white"/><h1 className="text-[#ff9f0d]"><u>About Us</u></h1>
                 </div>      
       </header>

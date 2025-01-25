@@ -3,6 +3,7 @@
 import react from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const items = [
@@ -16,18 +17,18 @@ const items = [
 const MeetChef =()=>{
     return(
         <div className="bg-black">
-            <main className="bg-black mb-4 lg:mb-[600px] ">
+            <main className="bg-black mb-4 lg:mb-[520px] ">
                 <header >
-                <h1 className="text-sm text-center mb-4 font-medium text-[#ff9f0d] italic">
+                <h1 className="text-sm text-center  font-medium text-[#ff9f0d] italic">
                 Chefs
             </h1>
-                    <h1 className="text-5xl font-bold text-white text-center tracking-wide mt-4 lg:mt-8 lg:pt-32">Meet Our Chef</h1>
+                    <h1 className="text-3xl lg:text-4xl font-bold text-white text-center tracking-wide mt-2 lg:mt-4 ">Meet Our Chef</h1>
                                     
                 
 
 {/* Grid of staff */}
 
-                <div className="bg-black lg:absolute mt-4 lg:mt-[290px] items-center justify-center ml-16 lg:ml-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="bg-black lg:absolute mt-4 lg:mt-[50px] items-center justify-center ml-16 lg:ml-72 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                         {items.map((item) => (
                     <div key={item.id} className="relative">
 {/* Image  */}
@@ -49,6 +50,9 @@ const MeetChef =()=>{
                     </header>
                 
             </main>
+            <div className="text-base text-center text-[#ff9f0d] pb-16">
+                <button className="w-[155px] h-[50px] border border-[#ff9f0d] rounded-full"><Link href={"/ourchef"}>See More</Link></button>
+            </div>
         </div>
     )
 };

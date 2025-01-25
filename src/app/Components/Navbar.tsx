@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { CiSearch } from "react-icons/ci";
 import { IoBagHandle } from "react-icons/io5";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { AiOutlineUser } from "react-icons/ai";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -61,15 +62,16 @@ export default function Navbar() {
             <input
               type="text"
               placeholder="Search..."
-              className="bg-black border border-[#FF9F0D] rounded-full px-4 py-2 text-sm focus:outline-none focus:ring focus:ring-orange-500"
+              className="bg-black border border-[#FF9F0D] rounded-full px-4 py-2 text-sm focus:outline-none focus:ring focus:ring-[#ff9f0d]"
             />
             <span className="absolute top-2.5 right-3">
               <CiSearch />
             </span>
           </div>
           <IoBagHandle className="w-[24px] h-[24px]" />
+          <Link href={"/signin"}><AiOutlineUser className="w-[24px] h-[24px] hover:bg-[#ff9f0d]" /></Link>
         </div>
       </section>
     </nav>
   );
-}
+};
